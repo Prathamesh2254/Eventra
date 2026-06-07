@@ -1,1 +1,479 @@
-<!DOCTYPE html><html><body><h1>Budget Calculator</h1><script src='js/calculator.js'></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+Event Budget Calculator | Eventra
+</title>
+
+<meta
+name="description"
+content="Estimate your event budget instantly with Eventra's smart budget calculator.">
+
+<link
+rel="stylesheet"
+href="css/style.css">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header class="header">
+
+<nav class="navbar container">
+
+<div class="logo">
+
+<a href="index.html">
+
+<img
+src="assets/logo.png"
+alt="Eventra">
+
+</a>
+
+</div>
+
+<ul class="nav-menu">
+
+<li>
+<a href="index.html">
+Home
+</a>
+</li>
+
+<li>
+<a href="vendors.html">
+Vendors
+</a>
+</li>
+
+<li>
+<a href="gallery.html">
+Gallery
+</a>
+</li>
+
+<li>
+<a href="budget-calculator.html">
+Budget Calculator
+</a>
+</li>
+
+<li>
+<a href="contact.html">
+Contact
+</a>
+</li>
+
+</ul>
+
+<div class="nav-actions">
+
+<a
+href="pages/become-vendor.html"
+class="btn-nav">
+
+Become Vendor
+
+</a>
+
+</div>
+
+<div class="hamburger">
+
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+
+</nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="calculator-hero">
+
+<div class="container">
+
+<h1>
+
+Smart Event Budget Calculator
+
+</h1>
+
+<p>
+
+Estimate your event expenses
+within seconds.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- CALCULATOR -->
+
+<section class="calculator-page">
+
+<div class="container">
+
+<div class="calculator-box">
+
+<h2>
+
+Calculate Your Budget
+
+</h2>
+
+<div class="calculator-form">
+
+<label>
+
+Event Type
+
+</label>
+
+<select id="eventType">
+
+<option value="1500">
+Wedding
+</option>
+
+<option value="800">
+Birthday Party
+</option>
+
+<option value="1200">
+Engagement
+</option>
+
+<option value="1000">
+Corporate Event
+</option>
+
+<option value="900">
+Anniversary
+</option>
+
+</select>
+
+<label>
+
+Number of Guests
+
+</label>
+
+<input
+type="number"
+id="guestCount"
+placeholder="Enter guest count">
+
+<label>
+
+Decoration Level
+
+</label>
+
+<select id="decorationLevel">
+
+<option value="1">
+Standard
+</option>
+
+<option value="1.25">
+Premium
+</option>
+
+<option value="1.5">
+Luxury
+</option>
+
+</select>
+
+<button
+onclick="calculateBudget()"
+class="btn-primary">
+
+Calculate Budget
+
+</button>
+
+</div>
+
+<div
+id="result"
+class="calculator-result">
+
+Your estimated budget
+will appear here.
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- BUDGET BREAKDOWN -->
+
+<section class="budget-benefits">
+
+<div class="container">
+
+<div class="section-header">
+
+<span>
+Planning Made Easy
+</span>
+
+<h2>
+
+What's Included?
+
+</h2>
+
+</div>
+
+<div class="benefits-grid">
+
+<div class="benefit-card">
+
+<h3>
+
+🎨 Decoration
+
+</h3>
+
+<p>
+
+Venue setup and decor costs.
+
+</p>
+
+</div>
+
+<div class="benefit-card">
+
+<h3>
+
+📸 Photography
+
+</h3>
+
+<p>
+
+Professional coverage estimates.
+
+</p>
+
+</div>
+
+<div class="benefit-card">
+
+<h3>
+
+🍽️ Catering
+
+</h3>
+
+<p>
+
+Food and beverage calculations.
+
+</p>
+
+</div>
+
+<div class="benefit-card">
+
+<h3>
+
+🎵 Entertainment
+
+</h3>
+
+<p>
+
+DJ, music and stage estimates.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="cta-section">
+
+<div class="container">
+
+<h2>
+
+Need Vendors For Your Budget?
+
+</h2>
+
+<p>
+
+Explore Eventra's verified vendor network.
+
+</p>
+
+<a
+href="vendors.html"
+class="btn-primary">
+
+Browse Vendors
+
+</a>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+<div class="container footer-grid">
+
+<div>
+
+<img
+src="assets/logo.png"
+class="footer-logo">
+
+<p>
+
+Plan.
+Manage.
+Celebrate.
+
+</p>
+
+</div>
+
+<div>
+
+<h4>
+
+Quick Links
+
+</h4>
+
+<ul>
+
+<li>
+<a href="index.html">
+Home
+</a>
+</li>
+
+<li>
+<a href="vendors.html">
+Vendors
+</a>
+</li>
+
+<li>
+<a href="gallery.html">
+Gallery
+</a>
+</li>
+
+</ul>
+
+</div>
+
+<div>
+
+<h4>
+
+Tools
+
+</h4>
+
+<ul>
+
+<li>
+Budget Calculator
+</li>
+
+<li>
+Vendor Directory
+</li>
+
+</ul>
+
+</div>
+
+<div>
+
+<h4>
+
+Social
+
+</h4>
+
+<ul>
+
+<li>
+
+<a
+href="https://www.instagram.com/eventra_studios"
+target="_blank">
+
+Instagram
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="copyright">
+
+© 2026 Eventra Studios
+
+</div>
+
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/calculator.js"></script>
+
+</body>
+</html>

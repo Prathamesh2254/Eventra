@@ -1,2 +1,5 @@
 User-agent: *
+
 Allow: /
+
+Sitemap: https://prathamesh2254.github.io/Eventra/sitemap.xml

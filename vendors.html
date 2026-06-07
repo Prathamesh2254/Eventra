@@ -1,1 +1,405 @@
-<!DOCTYPE html><html><body><h1>Vendors</h1><script src='js/vendors.js'></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+Find Vendors | Eventra
+</title>
+
+<meta
+name="description"
+content="Browse verified event vendors on Eventra.">
+
+<link
+rel="stylesheet"
+href="css/style.css">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- =========================
+HEADER
+========================= -->
+
+<header class="header">
+
+<nav class="navbar container">
+
+<div class="logo">
+
+<a href="index.html">
+
+<img
+src="assets/logo.png"
+alt="Eventra">
+
+</a>
+
+</div>
+
+<ul class="nav-menu">
+
+<li>
+<a href="index.html">
+Home
+</a>
+</li>
+
+<li>
+<a href="vendors.html">
+Vendors
+</a>
+</li>
+
+<li>
+<a href="gallery.html">
+Gallery
+</a>
+</li>
+
+<li>
+<a href="budget-calculator.html">
+Budget Calculator
+</a>
+</li>
+
+<li>
+<a href="contact.html">
+Contact
+</a>
+</li>
+
+</ul>
+
+<div class="nav-actions">
+
+<a
+href="pages/become-vendor.html"
+class="btn-nav">
+
+Become Vendor
+
+</a>
+
+</div>
+
+<div class="hamburger">
+
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+
+</nav>
+
+</header>
+
+<!-- =========================
+PAGE HERO
+========================= -->
+
+<section class="vendors-hero">
+
+<div class="container">
+
+<div class="vendors-hero-content">
+
+<h1>
+
+Find Trusted Event Vendors
+
+</h1>
+
+<p>
+
+Search photographers,
+decorators, caterers,
+DJs, anchors and more.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =========================
+SEARCH AREA
+========================= -->
+
+<section class="vendors-page">
+
+<div class="container">
+
+<div class="section-header">
+
+<span>
+Vendor Directory
+</span>
+
+<h2>
+
+Explore Professionals
+
+</h2>
+
+<p>
+
+Find the right partner
+for your event.
+
+</p>
+
+</div>
+
+<div class="vendor-filters">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Search vendor name...">
+
+<select
+id="categoryFilter">
+
+<option value="">
+All Categories
+</option>
+
+<option value="Photographer">
+Photographer
+</option>
+
+<option value="Decorator">
+Decorator
+</option>
+
+<option value="Caterer">
+Caterer
+</option>
+
+<option value="DJ">
+DJ
+</option>
+
+<option value="Anchor">
+Anchor
+</option>
+
+<option value="Venue">
+Venue
+</option>
+
+<option value="Makeup Artist">
+Makeup Artist
+</option>
+
+</select>
+
+<button
+onclick="sortByRating()"
+class="btn-primary">
+
+Top Rated
+
+</button>
+
+<button
+onclick="sortByName()"
+class="btn-secondary">
+
+Sort A-Z
+
+</button>
+
+</div>
+
+<div
+id="vendorContainer"
+class="vendor-grid">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =========================
+BECOME VENDOR CTA
+========================= -->
+
+<section class="cta-section">
+
+<div class="container">
+
+<h2>
+
+Want More Leads?
+
+</h2>
+
+<p>
+
+Join Eventra and get
+discovered by customers.
+
+</p>
+
+<a
+href="pages/become-vendor.html"
+class="btn-primary">
+
+Become Vendor
+
+</a>
+
+</div>
+
+</section>
+
+<!-- =========================
+FOOTER
+========================= -->
+
+<footer class="footer">
+
+<div class="container footer-grid">
+
+<div>
+
+<img
+src="assets/logo.png"
+class="footer-logo">
+
+<p>
+
+Plan.
+Manage.
+Celebrate.
+
+</p>
+
+</div>
+
+<div>
+
+<h4>
+
+Quick Links
+
+</h4>
+
+<ul>
+
+<li>
+<a href="index.html">
+Home
+</a>
+</li>
+
+<li>
+<a href="gallery.html">
+Gallery
+</a>
+</li>
+
+<li>
+<a href="contact.html">
+Contact
+</a>
+</li>
+
+</ul>
+
+</div>
+
+<div>
+
+<h4>
+
+Vendor Categories
+
+</h4>
+
+<ul>
+
+<li>Photographer</li>
+<li>Decorator</li>
+<li>Caterer</li>
+<li>DJ</li>
+<li>Venue</li>
+
+</ul>
+
+</div>
+
+<div>
+
+<h4>
+
+Follow Us
+
+</h4>
+
+<ul>
+
+<li>
+
+<a
+href="https://www.instagram.com/eventra_studios"
+target="_blank">
+
+Instagram
+
+</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="copyright">
+
+© 2026 Eventra Studios
+
+</div>
+
+</footer>
+
+<a
+href="https://wa.me/919999999999"
+class="whatsapp-btn"
+target="_blank">
+
+💬
+
+</a>
+
+<script src="js/script.js"></script>
+<script src="js/vendors.js"></script>
+
+</body>
+</html>

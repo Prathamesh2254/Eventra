@@ -1,1 +1,221 @@
-[{"name":"Sample Vendor"}]
+[
+  {
+    "id": 1,
+    "name": "Pixel Perfect Studio",
+    "category": "Photographer",
+    "city": "Mumbai",
+    "rating": 4.9,
+    "phone": "919876543210",
+    "instagram": "https://instagram.com/pixelperfectstudio",
+    "image": "vendor1.jpg"
+  },
+
+  {
+    "id": 2,
+    "name": "Royal Decorations",
+    "category": "Decorator",
+    "city": "Pune",
+    "rating": 4.8,
+    "phone": "919876543211",
+    "instagram": "https://instagram.com/royaldecorations",
+    "image": "vendor2.jpg"
+  },
+
+  {
+    "id": 3,
+    "name": "Taste Masters Catering",
+    "category": "Caterer",
+    "city": "Nashik",
+    "rating": 4.7,
+    "phone": "919876543212",
+    "instagram": "https://instagram.com/tastemasters",
+    "image": "vendor3.jpg"
+  },
+
+  {
+    "id": 4,
+    "name": "DJ Beats India",
+    "category": "DJ",
+    "city": "Mumbai",
+    "rating": 4.8,
+    "phone": "919876543213",
+    "instagram": "https://instagram.com/djbeatsindia",
+    "image": "vendor4.jpg"
+  },
+
+  {
+    "id": 5,
+    "name": "Golden Banquets",
+    "category": "Venue",
+    "city": "Pune",
+    "rating": 4.9,
+    "phone": "919876543214",
+    "instagram": "https://instagram.com/goldenbanquets",
+    "image": "vendor5.jpg"
+  },
+
+  {
+    "id": 6,
+    "name": "Elegant Makeup Studio",
+    "category": "Makeup Artist",
+    "city": "Thane",
+    "rating": 4.7,
+    "phone": "919876543215",
+    "instagram": "https://instagram.com/elegantmakeup",
+    "image": "vendor6.jpg"
+  },
+
+  {
+    "id": 7,
+    "name": "Wedding Dream Planners",
+    "category": "Wedding Planner",
+    "city": "Mumbai",
+    "rating": 5.0,
+    "phone": "919876543216",
+    "instagram": "https://instagram.com/weddingdreamplanners",
+    "image": "vendor7.jpg"
+  },
+
+  {
+    "id": 8,
+    "name": "Luxury Lights Decor",
+    "category": "Decorator",
+    "city": "Nagpur",
+    "rating": 4.6,
+    "phone": "919876543217",
+    "instagram": "https://instagram.com/luxurylightsdecor",
+    "image": "vendor8.jpg"
+  },
+
+  {
+    "id": 9,
+    "name": "Snap Story Photography",
+    "category": "Photographer",
+    "city": "Aurangabad",
+    "rating": 4.8,
+    "phone": "919876543218",
+    "instagram": "https://instagram.com/snapstory",
+    "image": "vendor9.jpg"
+  },
+
+  {
+    "id": 10,
+    "name": "Spice Route Caterers",
+    "category": "Caterer",
+    "city": "Pune",
+    "rating": 4.7,
+    "phone": "919876543219",
+    "instagram": "https://instagram.com/spiceroutecaterers",
+    "image": "vendor10.jpg"
+  },
+
+  {
+    "id": 11,
+    "name": "Party Pulse DJs",
+    "category": "DJ",
+    "city": "Mumbai",
+    "rating": 4.9,
+    "phone": "919876543220",
+    "instagram": "https://instagram.com/partypulsedj",
+    "image": "vendor11.jpg"
+  },
+
+  {
+    "id": 12,
+    "name": "Skyline Convention Hall",
+    "category": "Venue",
+    "city": "Nashik",
+    "rating": 4.8,
+    "phone": "919876543221",
+    "instagram": "https://instagram.com/skylinehall",
+    "image": "vendor12.jpg"
+  },
+
+  {
+    "id": 13,
+    "name": "Bridal Glow Studio",
+    "category": "Makeup Artist",
+    "city": "Mumbai",
+    "rating": 4.9,
+    "phone": "919876543222",
+    "instagram": "https://instagram.com/bridalglow",
+    "image": "vendor13.jpg"
+  },
+
+  {
+    "id": 14,
+    "name": "Corporate Connect Events",
+    "category": "Wedding Planner",
+    "city": "Pune",
+    "rating": 4.8,
+    "phone": "919876543223",
+    "instagram": "https://instagram.com/corporateconnectevents",
+    "image": "vendor14.jpg"
+  },
+
+  {
+    "id": 15,
+    "name": "Classic Event Decor",
+    "category": "Decorator",
+    "city": "Thane",
+    "rating": 4.6,
+    "phone": "919876543224",
+    "instagram": "https://instagram.com/classiceventdecor",
+    "image": "vendor15.jpg"
+  },
+
+  {
+    "id": 16,
+    "name": "Dream Capture Films",
+    "category": "Photographer",
+    "city": "Pune",
+    "rating": 4.9,
+    "phone": "919876543225",
+    "instagram": "https://instagram.com/dreamcapturefilms",
+    "image": "vendor16.jpg"
+  },
+
+  {
+    "id": 17,
+    "name": "Mega Feast Catering",
+    "category": "Caterer",
+    "city": "Nagpur",
+    "rating": 4.8,
+    "phone": "919876543226",
+    "instagram": "https://instagram.com/megafeast",
+    "image": "vendor17.jpg"
+  },
+
+  {
+    "id": 18,
+    "name": "Sound Storm DJ",
+    "category": "DJ",
+    "city": "Aurangabad",
+    "rating": 4.7,
+    "phone": "919876543227",
+    "instagram": "https://instagram.com/soundstormdj",
+    "image": "vendor18.jpg"
+  },
+
+  {
+    "id": 19,
+    "name": "Grand Palace Venue",
+    "category": "Venue",
+    "city": "Mumbai",
+    "rating": 4.9,
+    "phone": "919876543228",
+    "instagram": "https://instagram.com/grandpalacevenue",
+    "image": "vendor19.jpg"
+  },
+
+  {
+    "id": 20,
+    "name": "Beauty Artistry",
+    "category": "Makeup Artist",
+    "city": "Pune",
+    "rating": 4.8,
+    "phone": "919876543229",
+    "instagram": "https://instagram.com/beautyartistry",
+    "image": "vendor20.jpg"
+  }
+]
